@@ -7,22 +7,18 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
-      <Quote/>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import Quote from './components/Quote';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    Quote
+
   },
 
   data: () => ({
