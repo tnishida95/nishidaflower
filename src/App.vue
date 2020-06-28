@@ -1,11 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
-        <h1>Nishida Flowers</h1>
-      </div>
-    </v-app-bar>
-
+    <app-header></app-header>
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -13,12 +8,13 @@
 </template>
 
 <script>
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
 
   components: {
-
+    'app-header': Header
   },
 
   data: () => ({

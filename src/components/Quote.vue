@@ -3,21 +3,19 @@
     <h1 class="display-2 font-weight-bold mb-3 text-center">Request Quote</h1>
     <p class="subheading font-weight-regular text-center">
       Thank you for considering Nishida Flowers for your floral needs!
-      <br>
-      Please read the following before continuing:
-      <br>
     </p>
-    <ul style="display: table; margin: 0 auto;">
-      <li>This is just a request!  Order need to be confirmed after quote is sent via email.</li>
-      <li><strong>Quotes must be accepted a minimum of 48 hours from the delivery date.</strong></li>
-      <li>Flowers can be ordered up to one month in advanced!</li>
-      <li>Payment is due 24 hours before day of delivery, via Venmo only.</li>
-    </ul>
+    <v-banner elevation="2">
+      <ul style="display: table; margin: 0 auto;">
+        <strong>Please read the following before continuing:</strong>
+        <li>This is just a request!  Order need to be confirmed after quote is sent via email.</li>
+        <li>Quotes must be accepted a minimum of 48 hours from the delivery date.</li>
+        <li>Flowers can be ordered up to one month in advanced!</li>
+        <li>Payment is due 24 hours before day of delivery, via Venmo only.</li>
+      </ul>
+    </v-banner>
 
     <br>
     <h2 class="text-center">Delivery Information</h2>
-    <br>
-
     <v-row class="justify-center">
       <v-simple-table dense style="max-width: 600px;" class="justify-center">
         <template v-slot:default>
@@ -49,8 +47,6 @@
 
     <br>
     <h2 class="text-center">Form</h2>
-    <br>
-
     <v-row class="justify-center">
       <v-card class="justify-center">
 
