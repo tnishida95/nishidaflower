@@ -5,6 +5,7 @@
         <v-col>
           <h1>Nishida Flowers</h1>
         </v-col>
+        <!-- change if <1024px (laptop) -->
         <v-col align-self="center">
           <nav class="d-flex justify-end">
             <span>
@@ -13,6 +14,10 @@
               <router-link to='/quote'>Request Quote</router-link>
               &nbsp;-&nbsp;
               <router-link to='/gallery'>Gallery</router-link>
+              &nbsp;-&nbsp;
+              <router-link to='/faq'>FAQ</router-link>
+              &nbsp;-&nbsp;
+              <router-link to='/about'>About Me</router-link>
             </span>
           </nav>
         </v-col>
